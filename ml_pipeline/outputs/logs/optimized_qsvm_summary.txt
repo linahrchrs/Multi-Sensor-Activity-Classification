@@ -43,9 +43,9 @@ Training time: 636.50 seconds
 
 Final comparison:
          model        scaler     reducer  encoding entanglement reps  accuracy  precision   recall       f1   time_sec
-           SVM robust_minmax benchmark_4 classical         none none  0.750000   0.777778 0.777778 0.777778   0.205644
-Optimized QSVM robust_minmax benchmark_4  pauli_zz       linear    1  0.742188   0.754866 0.763889 0.759000 636.498357
- Random Forest robust_minmax benchmark_4 classical         none none  0.718750   0.757748 0.750000 0.744568   5.573397
+Optimized QSVM robust_minmax benchmark_4  pauli_zz       linear    1   0.78125   0.805202 0.798611 0.801188 636.626096
+           SVM robust_minmax benchmark_4 classical         none none   0.75000   0.777778 0.777778 0.777778   0.344246
+ Random Forest robust_minmax benchmark_4 classical         none none   0.71875   0.757748 0.750000 0.744568   9.435258
 
 Conclusion:
 The results show that QSVM performance is highly sensitive to preprocessing
